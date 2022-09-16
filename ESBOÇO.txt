@@ -1,0 +1,17 @@
+import Router from 'next/router'
+
+componentDidMount(){
+    const {pathname} = Router
+    if(pathname == '/' ){
+       Router.push('/hello-nextjs')
+    }
+}
+
+import React, { useEffect } from "react";
+...
+useEffect(() => {
+   const {pathname} = Router
+   if(pathname == '/' ){
+       Router.push('/hello-nextjs')
+   }
+ });

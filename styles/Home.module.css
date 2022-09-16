@@ -1,0 +1,50 @@
+.td{
+    border: solid 1px black;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+.table{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+}
+.input{
+    border: solid 1px black;
+    width: 200px;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.data{
+    border: solid 1px black;
+    width: 300px;
+    border-bottom: none;
+}
+.b{
+    position: absolute;
+    width: 50px;
+    font-size: 22px;
+}
+.b:hover{
+    color: red;
+    transition: .6s;
+}
+.btn{
+    margin-top: 10px;
+    width: 80px;
+    background-color: dimgray;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.btn:hover{
+    background-color: green;
+    transition: .8s;
+}
+.cell{
+    border: solid 1px black;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
